@@ -4,7 +4,7 @@ import Aura from "@primevue/themes/aura";
 
 export default defineNuxtConfig({
 	compatibilityDate: "2024-04-03",
-	devtools: { enabled: false },
+	devtools: { enabled: true },
 	modules: [
 		"@primevue/nuxt-module",
 		"@nuxtjs/tailwindcss",
@@ -12,7 +12,14 @@ export default defineNuxtConfig({
 		"@vueuse/nuxt",
 		"@nuxt/content",
 		"@nuxt/image",
+		"@nuxtjs/sitemap",
+		"@nuxtjs/robots",
+		"nuxt-link-checker",
 	],
+	site: {
+		url: "https://invoicewolf.net",
+		name: "InvoiceWolf",
+	},
 	css: ["primeicons/primeicons.css", "assets/main.css"],
 	tailwindcss: {
 		configPath: "tailwind.config.ts",
