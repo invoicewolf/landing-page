@@ -24,6 +24,8 @@ useHead({
 		{ name: "twitter:card", content: "summary_large_image" },
 
 		{ name: "msapplication-TileColor", content: "#00aba9" },
+
+		{ name: "robots", content: "all" },
 	],
 	link: [
 		{ rel: "apple-touch-icon", sizes: "180x180", href: "/apple-touch-icon.png" },

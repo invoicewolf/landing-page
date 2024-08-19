@@ -12,9 +12,17 @@ export default defineNuxtConfig({
 		"@vueuse/nuxt",
 		"@nuxt/content",
 		"@nuxt/image",
-		"@nuxtjs/robots",
-		"nuxt-link-checker",
+		"@nuxtjs/seo",
 	],
+	site: {
+		url: "https://invoicewolf.net",
+		name: "InvoiceWolf",
+		description: "Generate invoices with ease",
+		defaultLocale: "en",
+	},
+	seo: {
+		redirectToCanonicalSiteUrl: true,
+	},
 	css: ["primeicons/primeicons.css", "assets/main.css"],
 	tailwindcss: {
 		configPath: "tailwind.config.ts",

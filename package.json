@@ -16,6 +16,7 @@
 		"@nuxt/image": "^1.7.0",
 		"@nuxtjs/color-mode": "^3.4.4",
 		"@nuxtjs/robots": "^4.1.0",
+		"@nuxtjs/seo": "2.0.0-rc.18",
 		"@nuxtjs/tailwindcss": "^6.12.1",
 		"@primevue/themes": "^4.0.4",
 		"@vueuse/core": "^11.0.0",
