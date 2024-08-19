@@ -12,14 +12,9 @@ export default defineNuxtConfig({
 		"@vueuse/nuxt",
 		"@nuxt/content",
 		"@nuxt/image",
-		"@nuxtjs/sitemap",
 		"@nuxtjs/robots",
 		"nuxt-link-checker",
 	],
-	site: {
-		url: "https://invoicewolf.net",
-		name: "InvoiceWolf",
-	},
 	css: ["primeicons/primeicons.css", "assets/main.css"],
 	tailwindcss: {
 		configPath: "tailwind.config.ts",
