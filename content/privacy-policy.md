@@ -1,5 +1,5 @@
 ---
-title: 'InvoiceWolf | Privacy Policy'
+title: 'Privacy Policy'
 description: 'InvoiceWolf privacy policy'
 ---
 

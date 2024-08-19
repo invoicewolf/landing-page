@@ -1,12 +1,12 @@
 <script setup lang="ts">
 useHead({
-	title: "InvoiceWolf",
+	title: "Home",
 	htmlAttrs: {
 		lang: "en",
 		class: "bg-surface-0 dark:bg-surface-950",
 	},
 	meta: [
-		{ name: "title", content: "InvoiceWolf" },
+		{ name: "title", content: "Home" },
 		{ name: "description", content: "Generate invoices with ease" },
 
 		{ name: "og:title", content: "InvoiceWolf" },
