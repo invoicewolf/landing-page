@@ -10,14 +10,7 @@ const menubarItems = ref<MenuItem[]>([]);
 	<nav>
 		<pv-menubar
 			:model="menubarItems"
-			:pt="{
-				root: {
-					class: 'rounded-none border-0 bg-surface-0 dark:bg-surface-950 p-6',
-				},
-				item: {
-					class: 'z-10',
-				},
-			}"
+			class="rounded-none border-0 bg-surface-0 p-6 dark:bg-surface-950"
 		>
 			<template #start>
 				<nuxt-link to="/">
