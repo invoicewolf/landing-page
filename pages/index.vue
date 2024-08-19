@@ -36,7 +36,7 @@ useHead({
 
 <template>
 	<top-bar class="z-10" />
-	<main class="flex min-h-screen w-full select-none flex-col justify-center bg-surface-50 dark:bg-surface-950">
+	<main class="flex min-h-screen w-full select-none flex-col justify-center overflow-x-hidden bg-surface-50 dark:bg-surface-950">
 		<section
 			class="relative flex flex-col items-center gap-4 overflow-hidden bg-gradient-to-t from-primary-100 to-surface-0 px-10 py-32 text-center sm:h-screen sm:items-baseline sm:py-64 sm:text-left xl:px-48 dark:from-primary-950 dark:to-surface-950"
 		>
@@ -210,10 +210,11 @@ useHead({
 			</div>
 		</section>
 	</main>
-	<div class="flex justify-center bg-surface-0 dark:bg-surface-950">
-		<hr class="container border-primary-100 dark:border-primary-950">
-	</div>
-	<footer class="w-full bg-surface-0 p-10 dark:bg-surface-950">
+	<footer class="flex w-full flex-col gap-8 bg-surface-0 p-10 dark:bg-surface-950">
+		<div class="flex justify-center bg-surface-0 dark:bg-surface-950">
+			<hr class="container border-primary-100 dark:border-primary-950">
+		</div>
+
 		<div class="mx-auto flex items-center justify-between lg:container">
 			<invoice-wolf-name-logo size="large" arrangement="horizontal" class="hidden sm:block" />
 			<invoice-wolf-name-logo size="normal" arrangement="horizontal" class="block sm:hidden" />
