@@ -3,6 +3,7 @@ useHead({
 	title: "InvoiceWolf",
 	htmlAttrs: {
 		lang: "en",
+		class: "bg-surface-0 dark:bg-surface-950",
 	},
 	meta: [
 		{ name: "title", content: "InvoiceWolf" },
@@ -36,7 +37,7 @@ useHead({
 
 <template>
 	<top-bar class="z-10" />
-	<main class="flex min-h-screen w-full select-none flex-col justify-center overflow-x-hidden bg-surface-50 dark:bg-surface-950">
+	<main class="flex min-h-screen w-full select-none flex-col justify-center overflow-x-hidden">
 		<section
 			class="relative flex flex-col items-center gap-4 overflow-hidden bg-gradient-to-t from-primary-100 to-surface-0 px-10 py-32 text-center sm:h-screen sm:items-baseline sm:py-64 sm:text-left xl:px-48 dark:from-primary-950 dark:to-surface-950"
 		>
