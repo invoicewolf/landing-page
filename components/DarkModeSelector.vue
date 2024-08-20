@@ -6,9 +6,11 @@ const cookie = useCookie("theme", { expires: new Date(new Date().setFullYear(300
 if (cookie.value) {
 	if (cookie.value === "dark") {
 		setDark();
+		colorMode.value = "dark";
 	}
 	else {
 		setLight();
+		colorMode.value = "light";
 	}
 }
 
