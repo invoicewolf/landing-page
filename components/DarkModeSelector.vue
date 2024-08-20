@@ -15,7 +15,3 @@ const colorMode = useColorMode();
 		</template>
 	</ClientOnly>
 </template>
-
-<style scoped>
-
-</style>
