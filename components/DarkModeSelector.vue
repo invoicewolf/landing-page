@@ -3,7 +3,7 @@ const colorMode = useColorMode();
 
 const cookie = useCookie("theme", { expires: new Date(new Date().setFullYear(3000)), domain: "invoicewolf.net" });
 
-if (cookie.value) {
+onMounted(() => {
 	if (cookie.value === "dark") {
 		setDark();
 		colorMode.value = "dark";
@@ -11,13 +11,6 @@ if (cookie.value) {
 	else {
 		setLight();
 		colorMode.value = "light";
-	}
-}
-
-onBeforeMount(() => {
-	if (cookie.value) {
-		colorMode.preference = cookie.value;
-		colorMode.value = cookie.value;
 	}
 });
 
