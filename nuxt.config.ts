@@ -45,7 +45,7 @@ export default defineNuxtConfig({
 		autoImport: false,
 		components: {
 			prefix: "pv",
-			include: ["Menubar", "ToggleSwitch", "Button", "Divider"],
+			include: ["Button"],
 		},
 		options: {
 			theme: {
