@@ -29,7 +29,7 @@ export default defineNuxtConfig({
 		configPath: "tailwind.config.ts",
 	},
 	colorMode: {
-		fallback: "light",
+		fallback: "dark",
 	},
 	vite: {
 		optimizeDeps: {
