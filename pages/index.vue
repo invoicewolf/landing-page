@@ -76,7 +76,7 @@ useHead({
 					<div class="absolute left-4 top-4 size-full -skew-x-12 bg-primary-300 blur-sm sm:left-16 sm:top-16 dark:bg-primary-700" />
 					<div class="absolute left-2 top-2 size-full -skew-x-12 bg-primary-200 blur-sm sm:left-8 sm:top-8 dark:bg-primary-600" />
 					<img
-						draggable="false" src="/images/ExampleInvoice.png" loading="lazy" alt="Example invoice"
+						draggable="false" src="/images/ExampleInvoice.webp" alt="Example invoice"
 						class="h-auto w-full -skew-x-12 shadow-[rgba(255,255,255,0.9)_0px_0px_75px_10px] dark:shadow-[rgba(255,255,255,0.4)_0px_0px_75px_10px]"
 					>
 				</div>
