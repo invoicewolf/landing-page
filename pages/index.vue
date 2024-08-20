@@ -7,17 +7,17 @@ useHead({
 	},
 	meta: [
 		{ name: "title", content: "Home" },
-		{ name: "description", content: "Generate invoices with ease" },
+		{ name: "description", content: "Create invoices with ease using InvoiceWolf. Generate professional invoices quickly and effortlessly, with no account required. Streamline your invoicing process now!" },
 
-		{ name: "og:title", content: "InvoiceWolf" },
-		{ name: "og:description", content: "Generate invoices with ease" },
+		{ name: "og:title", content: "InvoiceWolf - Create invoices with ease" },
+		{ name: "og:description", content: "Create invoices with ease using InvoiceWolf. Generate professional invoices quickly and effortlessly, with no account required. Streamline your invoicing process now!" },
 		{ name: "og:image", content: "/images/InvoiceWolf-card.jpg" },
 		{ name: "og:url", content: "https://invoicewolf.net" },
 
 		{ name: "theme-color", content: useCssVar("--pv-primary-500").value },
 
-		{ name: "twitter:title", content: "InvoiceWolf" },
-		{ name: "twitter:description", content: "Generate invoices with ease" },
+		{ name: "twitter:title", content: "InvoiceWolf - Create invoices with ease" },
+		{ name: "twitter:description", content: "Create invoices with ease using InvoiceWolf. Generate professional invoices quickly and effortlessly, with no account required. Streamline your invoicing process now!" },
 		{ name: "twitter:domain", content: "https://invoicewolf.net" },
 		{ name: "twitter:url", content: "https://invoicewolf.net" },
 		{ name: "twitter:image", content: "/images/InvoiceWolf-card.jpg" },

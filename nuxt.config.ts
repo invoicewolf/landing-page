@@ -17,8 +17,8 @@ export default defineNuxtConfig({
 	],
 	site: {
 		url: "https://invoicewolf.net",
-		name: "InvoiceWolf",
-		description: "Generate invoices with ease",
+		name: "InvoiceWolf - Create invoices with ease",
+		description: "Create invoices with ease using InvoiceWolf. Generate professional invoices quickly and effortlessly, with no account required. Streamline your invoicing process now!",
 		defaultLocale: "en",
 	},
 	seo: {
