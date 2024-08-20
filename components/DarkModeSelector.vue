@@ -14,6 +14,13 @@ if (cookie.value) {
 	}
 }
 
+onBeforeMount(() => {
+	if (cookie.value) {
+		colorMode.preference = cookie.value;
+		colorMode.value = cookie.value;
+	}
+});
+
 function setDark() {
 	cookie.value = "dark";
 	colorMode.preference = "dark";
