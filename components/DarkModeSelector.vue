@@ -3,16 +3,22 @@ const colorMode = useColorMode();
 
 const cookie = useCookie("theme", { expires: new Date(new Date().setFullYear(3000)), domain: "invoicewolf.net" });
 
-if (cookie.value) {
-	if (cookie.value === "dark") {
-		setDark();
-		colorMode.value = "dark";
+const once = useState("once", () => false);
+
+watch(colorMode, () => {
+	if (!once.value) {
+		if (cookie.value) {
+			if (cookie.value === "dark") {
+				setDark();
+			}
+			else {
+				setLight();
+			}
+		}
+
+		once.value = true;
 	}
-	else {
-		setLight();
-		colorMode.value = "light";
-	}
-}
+});
 
 function setDark() {
 	cookie.value = "dark";
